@@ -3,7 +3,7 @@ set nocompatible
 
 " color scheme
 set termguicolors " send full color commands, afterall it is 2018
-let g:gruvbox_italic = '1' " gruvbox color scheme disables italics, this enables
+let g:gruvbox_italic='1' " gruvbox color scheme disables italics, this enables
 set background=dark
 colorscheme gruvbox
 
@@ -30,6 +30,9 @@ set softtabstop=4
 set shiftwidth=4
 filetype indent on
 set autoindent
+
+" line length marker
+set colorcolumn=80
 
 " line numbers
 set number
