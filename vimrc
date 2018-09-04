@@ -24,10 +24,10 @@ let g:netrw_list_style=3 " tree view
 let g:netrw_list_hide=netrw_gitignore#Hide()
 
 " standard indents
-set tabstop=2 " 4 space tab
+set tabstop=2 " 2 space tab
 set expandtab " use spaces for tabs
-set softtabstop=4
-set shiftwidth=4
+set softtabstop=2
+set shiftwidth=2
 filetype indent on
 set autoindent
 

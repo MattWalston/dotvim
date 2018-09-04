@@ -1,3 +1,12 @@
 [submodule "pack/tpope/start/vim-vinegar"]
 	path = pack/tpope/start/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar.git
+[submodule "pack/mattn/start/emmet-vim"]
+	path = pack/mattn/start/emmet-vim
+	url = https://github.com/mattn/emmet-vim
+[submodule "pack/tpope/start/vim-rails"]
+	path = pack/tpope/start/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "pack/tpope/start/vim-surround"]
+	path = pack/tpope/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
