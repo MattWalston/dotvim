@@ -1,5 +1,11 @@
-" current millenium
-set nocompatible
+if has('vim_starting')
+  " set default encoding to utf-8
+  set encoding=utf-8
+  " enable nocompatible - current millenium
+  if &compatible
+    set nocompatible
+  endif
+endif
 
 " color scheme
 set termguicolors " send full color commands, afterall it is 2018
@@ -77,3 +83,5 @@ if exists("+undofile")
   set undodir+=~/.vim/undo//
   set undofile
 endif
+
+" vim:set et sw=2 cc=80
