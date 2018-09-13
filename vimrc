@@ -84,4 +84,11 @@ if exists("+undofile")
   set undofile
 endif
 
+" NERDTree with Ctrl+n
+map <C-n> :NERDTreeToggle<CR>
+
+" mouse clicks in NERDTree
+set mouse=a
+let g:NERDTreeMouseMode=3
+
 " vim:set et sw=2 cc=80

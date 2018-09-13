@@ -13,3 +13,6 @@
 [submodule "pack/scrooloose/start/nerdtree"]
 	path = pack/scrooloose/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "pack/w0rp/start/ale"]
+	path = pack/w0rp/start/ale
+	url = https://github.com/w0rp/ale
